@@ -1,2 +1,4 @@
 # nadeemali.github.io
-Portfolio of Nadeem Ali
+Hello! I’m Nadeem Ali
+
+linkedin.com/in/nadeemali001
