@@ -1,1 +1,208 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadeem's Portfolio</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header, .footer {
+            background-color:  #f1f1f1;
+            color: rgb(33, 31, 82);
+            text-align: center;
+            padding: 1px;
+        }
+
+        .header {
+            position: sticky;
+            top: 0;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: white;
+        }
+
+        .top-bar .name {
+            font-size: 1.5em;
+        }
+
+        .top-bar .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .main-content {
+            width: 80%;
+            margin: 20px auto;
+            padding-bottom: 100px; /* Space for footer */
+        }
+
+        .main-content img {
+            width: 30pc;
+            height: 25pc;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .main-content .text-box {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .image-and-text .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .image-and-text .row div {
+            width: 48%;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+        }
+
+        .section .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .section .row div {
+            width: 48%;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .connect, .download-resume {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .download-resume a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Hello! I’m Nadeem Ali</h1>
+    </div>
+
+    <div class="top-bar">
+        <div class="name">Na</div>
+        <div class="social-links">
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">InstaGram</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="image-and-text">
+            <div class="row">
+                <div>
+                    <img src="appData/Nadeem_Ali_2.jpg" alt="Profile Picture">
+                </div>
+                <div>
+                <h3>About</h3>
+                    <p>Throughout my life, I’ve approached every challenge with enthusiasm, creativity, and ceaseless desire to achieve success. This passion and drive have paved the way to countless opportunities, unique experiences and exceptional relationships both personally and professionally. If you’re interested in learning more about me, keep reading or get in touch.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section experience">
+            <h2>Experience</h2>
+            <div class="row">
+                <div>
+                    <h3>Job Title 1</h3>
+                    <p>Company Name</p>
+                    <p>Description of the role and responsibilities.</p>
+                </div>
+                <div>
+                    <h3>Job Title 2</h3>
+                    <p>Company Name</p>
+                    <p>Description of the role and responsibilities.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <div class="row">
+                <div>
+                    <h3>Skill 1</h3>
+                    <p>Description of skill 1.</p>
+                </div>
+                <div>
+                    <h3>Skill 2</h3>
+                    <p>Description of skill 2.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section projects">
+            <h2>Projects</h2>
+            <div class="row">
+                <div>
+                    <h3>Project 1</h3>
+                    <p>Description of project 1.</p>
+                </div>
+                <div>
+                    <h3>Project 2</h3>
+                    <p>Description of project 2.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="connect">
+            <h2>Connect</h2>
+            <p>Feel free to reach out via <a href="mailto:your-email@example.com">email</a> for any opportunities or collaborations.</p>
+        </div>
+
+        <div class="download-resume">
+            <a href="path/to/your/resume.pdf" download>Download Resume</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Nadeem Ali. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
